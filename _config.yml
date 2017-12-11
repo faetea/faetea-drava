@@ -20,8 +20,14 @@ collections:
     permalink: /:collection/:path/
 
 portfolio-categories:
-  - name: fiber
-    title: Fiber
+  - name: painting
+    title: Painting
+  - name: sewing
+    title: Sewing
+  - name: weaving
+    title: Weaving
+  - name: jewelry
+    title: Jewelry
   - name: illustration
     title: Illustration
 
