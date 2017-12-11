@@ -109,28 +109,19 @@ works:
       <li class='current'>
         <a data-cat='all' href='#'>All</a>
       </li>
+      {% for category in site.portfolio-categories %}
       <li>
-        <a data-cat='graphic-design' href='#'>Graphic Design</a>
+        <a data-cat='{{category.name}}' href='#'>{{category.title}}</a>
       </li>
-      <li>
-        <a data-cat='web-design' href='#'>Web Design</a>
-      </li>
-      <li>
-        <a data-cat='brand' href='#'>Brand</a>
-      </li>
-      <li>
-        <a data-cat='development' href='#'>Development</a>
-      </li>
-      <li>
-        <a data-cat='print' href='#'>Print</a>
-      </li>
+      {% endfor %}
     </ul>
   </div>
   <ul class='gallery'>
-    {% for work in page.works %}
+    {% assign sorted_portfolio = site.portfolio | sort: 'date' | reverse %}
+    {% for work in sorted_portfolio %}
       <li class='{{work.class}}'>
-        <a href='portfolio-item.html'>
-          <img alt="" src="{{work.image}}" />
+        <a href='{{work.url}}'>
+          <img alt="" src="{{work.hero-image}}" />
           <div class='overlay'>
             <div class='thumb-info'>
               <h3>{{work.title}}</h3>
