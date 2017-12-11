@@ -1,18 +1,33 @@
 # Site settings
-title: Drava
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-# url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+locale: "en_US"
+title: FAETEA
+email: saphron@faetea.com
+description: FAETEA encompasses the painting and wearables of Allison J. Sebastian, also known as Saphron Reyn.
+# the base hostname & protocol for your site, e.g. http://example.com
+url:  "http://faetea.com"   #no trailing '/'
+# url: "http://localhost:4000"   #no trailing '/'
+og_image: _images/logo.png
 
 # Build settings
 markdown: kramdown
 
-
 paginate: 4
 paginate_path: "blog/page:num"
+
+# Site Author
+author:
+  name: "Allison J. Sebastian"
+  avatar: "/assets/images/logo.png"
+  bio: "Fine Artist, painter and clothing designer. In love with color. Distracted by plants."
+  location: "Cambridge, MA"
+  email: saphron@faetea.com
+  # keybase: "saphron"
+  # twitter: "faetea"
+  facebook: "shopfaetea"
+  linkedin: "allisonsebastian"
+  instagram: "faetea"
+  # github: "faetea"
+  # lastfm: "faetea"
+  # pinterest: "saphronr"
+  # behance: "faetea"
+  # etsy: "faetea"
