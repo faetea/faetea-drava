@@ -37,24 +37,32 @@ section_id: portfolio
     <div class='large-4 columns'>
       <ul class='info'>
         <li>
-          <strong>Client:</strong>
-          themeforest
-        </li>
-        <li>
           <strong>Date:</strong>
-          June 2013
+          {{ page.date | date_to_string }}
         </li>
+        {% for note-pairs in page.side-notes %}
+          {% for note in note-pairs %}
+        <li>
+          <strong>{{note[0]}}:</strong>
+          {{note[1]}}
+        </li>
+        {% endfor %}
+        {% endfor %}
         <li>
           <div class='spacing'></div>
-          <a href='' title='previous'>
+          {% if page.previous.url %}
+          <a href='{{page.previous.url}}' title='previous'>
             <i class='icon-left-open'></i>
           </a>
-          <a href='portfolio.html' title='back to work list'>
+          {% endif %}
+          <a href='/portfolio.html' title='back to work list'>
             <i class='icon-layout'></i>
           </a>
-          <a href='' title='next'>
+          {% if page.next.url %}
+          <a href='{{page.next.url}}' title='next'>
             <i class='icon-right-open'></i>
           </a>
+          {% endif %}
         </li>
       </ul>
     </div>
