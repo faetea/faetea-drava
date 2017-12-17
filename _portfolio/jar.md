@@ -7,18 +7,18 @@ class: painting
 title: Jar Gazing
 desc: "Fluorescent Lantern Installation"
 images:
-  - /images/jar/17_9869.jpg
-  - /images/jar/17_9993.jpg
-  - /images/jar/17_9994.jpg
-  - /images/jar/17_0223.jpg
-  - /images/jar/16_ScottAshkenaz.jpg
-  - /images/jar/16_9216.jpg
-  - /images/jar/17_0398.jpg
-  - /images/jar/16_9591.jpg
-  - /images/jar/16_9615.jpg
+-   /images/jar/17_9869.jpg
+-   /images/jar/17_9993.jpg
+-   /images/jar/17_9994.jpg
+-   /images/jar/17_0223.jpg
+-   /images/jar/16_ScottAshkenaz.jpg
+-   /images/jar/16_9216.jpg
+-   /images/jar/17_0398.jpg
+-   /images/jar/16_9591.jpg
+-   /images/jar/16_9615.jpg
 side-notes:
-  - Event: Firefly Arts Collective
-  - Photographers: Steve Pomeroy, Drew Cook, Scott Ashkenaz, and Allison Sebastian
+-   Event: Firefly Arts Collective
+-   Photographers: Steve Pomeroy, Drew Cook, Scott Ashkenaz, and Allison Sebastian
 ---
 
 Jars on Rope in Daylight, Firefly 2017, Steve Pomeroy
